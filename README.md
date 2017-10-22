@@ -44,3 +44,6 @@ STOP
 
 ## search_algorithms/
 This is a folder that contains different search algorithms implemented using these nodes. Cool.
+
+## graphs/
+A folder containing graphs in the format loadable by the Graph.
