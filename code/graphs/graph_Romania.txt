@@ -1,0 +1,41 @@
+# A comment begins with '# ' or else!
+# Each line is a node and the name MUST NOT COINTAIN SPACES
+NODES
+Oradea
+Zerind
+Arad
+Timisoara
+Lugoj
+Mehadia
+Drobeta
+Craiova
+Sibiu
+RimnicuVilcea
+Fagaras
+Pitesti
+Bucharest
+Giurgiu
+Urziceni
+Neamt
+Iasi
+Vaslui
+Hirsova
+Eforie
+STOP
+# Connections
+# [m] will connect the nodes mutually
+# [m] Name connection connection connection
+CONNECTIONS
+m Oradea Zerind 71 Sibiu 151
+m Zerind Arad 75
+m Arad Sibiu 140 Timisoara 118
+m Timisoara Lugoj 111
+m Mehadia Lugoj 70 Drobeta 75
+m Craiova Drobeta 120 RimnicuVilcea 146 Pitesti 138
+m Sibiu RimnicuVilcea 80 Fagaras 99
+m Pitesti RimnicuVilcea 97 Bucharest 101
+m Bucharest Fagaras 211 Giurgiu 90 Urziceni 85
+m Urziceni Hirsova 98 Vaslui 142
+m Hirsova Eforie 86
+m Iasi Vaslui 92 Neamt 87
+STOP

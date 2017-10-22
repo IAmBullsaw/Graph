@@ -1,0 +1,30 @@
+#          A
+#      B         C
+#   D    E    F     G
+#  H I  J K   L M  N O
+NODES
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+STOP
+CONNECTIONS
+A B 1 C 1
+B D 1 E 1
+C F 1 G 1
+D H 1 I 1
+E J 1 K 1
+F L 1 M 1
+G N 1 O 1
+STOP
